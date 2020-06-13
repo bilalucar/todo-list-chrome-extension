@@ -1,0 +1,61 @@
+body {
+    background: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+}
+
+.container {
+    width: 450px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper input {
+    flex: 1;
+    background: #f5f5f5;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.wrapper button, li button {
+    margin-left: 10px;
+    width: 75px;
+    background: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.wrapper button:hover {
+    color: #0375a7;
+}
+
+li button:hover {
+    color: #ac0505;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+}
+
+ul li p {
+    flex: 1;
+}
